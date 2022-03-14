@@ -17,7 +17,7 @@ This document contains the following details:
 
 ### Description of the Topology
 
-The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
+The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly avaiiable, in addition to restricting Flooding to the network.
 -Aspect of security which load balancers protect are availability and redundancy. I have used a jump box to control the access to the network.
