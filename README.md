@@ -47,8 +47,7 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | No                  | 167.160.91.13        |
-|          |                     |                      |
-|          |                     |                      |
+
 
 ### Elk Configuration
 
