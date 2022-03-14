@@ -91,4 +91,4 @@ SSH into the control node and follow the steps below:
 - Navigate to  http://[your.ELK-VM.External.IP]:5601/app/kibana in order to check that the ELK server is running.
 
 Run commands to download playbook:
-git clone 
+gh repo clone cleankicks11/CyberSecurityProjects
