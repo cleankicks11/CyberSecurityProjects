@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![alt text](https://user-images.githubusercontent.com/26636182/158036698-651783ff-ad14-484d-a004-33719046175e.png "Azure Security Lab")
+![alt text](https://github.com/cleankicks11/CyberSecurityProjects/blob/main/Diagrams/Untitled%20Diagram.drawio.png "Azure Security Lab")
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the cyberSecurityProjects/Ansible/ file may be used to install only certain pieces of it, such as Filebeat.
 
