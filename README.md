@@ -20,10 +20,10 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly avaiiable, in addition to restricting Flooding to the network.
--Aspect of security which load balancers protect are availability and redundancy. I have used a jump box to control the access to the network.
+Aspect of security which load balancers protect are availability and redundancy. I have used a jump box to control the access to the network.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system services.
--Filebeat watches for ghtweight way to forward and centralize logs and files behavior across your aggregated logs.
+-Filebeat watches for lightweight way to forward and centralize logs and files behavior across your aggregated logs.
 -Metricbeat Collects metrics from your systems and services. From CPU to memory, Redis to NGINX, and much more
 
 
