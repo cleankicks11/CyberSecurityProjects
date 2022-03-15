@@ -28,7 +28,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 
 | Name       | Function  | IP Address | Operating System |
-|------------|-----------|------------|------------------|
+|------------|:-----------:|:------------:|:------------------:|
 | Jump Box   | Gateway   | 10.0.0.8   | Linux            |
 | Web-1      |Webserver  | 10.0.0.7   | Linux            |
 | Web-2      |Webserver  | 10.0.0.6   | Linux            |
@@ -51,8 +51,10 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
--The main advantage of automating configuration with Ansible simultaneous deployment with out human error
+Ansible was used to automate configuration of the ELK machine.
+- The main advantage of automating configuration with Ansible simultaneous deployment with out human error.
+
+[Ansible playbook to install docker images](https://github.com/cleankicks11/CyberSecurityProjects/blob/main/Ansible/docker/Install-docker-vm.yml)
 
 The playbook implements the following tasks:
 - Configure Server memory
@@ -63,7 +65,25 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+```
+Jump Box Docker
+```
+![](https://github.com/cleankicks11/CyberSecurityProjects/blob/main/Ansible/images/Jump-Box-Docker-List.png "Jump box Docker")
+
+```
+Web-1 docker
+```
+![](https://github.com/cleankicks11/CyberSecurityProjects/blob/main/Ansible/images/Web-1-docker-ps.png "Web-1 docker")
+
+```
+Web-2 docker
+```
+![](https://github.com/cleankicks11/CyberSecurityProjects/blob/main/Ansible/images/Web-2-docker-ps.png "Web-2 docker")
+
+```
+ELK Machine docker
+```
+![](https://github.com/cleankicks11/CyberSecurityProjects/blob/main/Ansible/images/ELK-docker-ps.png "ELK Machine docker")
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -90,4 +110,4 @@ SSH into the control node and follow the steps below:
 - To make Ansible run the playbook on a specific machine edit /etc/Ansible/hosts edit [webservers] lines to include IP address and ansible_python_interpreter=/usr/bin/python3
 - Navigate to  http://[your.ELK-VM.External.IP]:5601/app/kibana in order to check that the ELK server is running.
 
-Run commands to download playbook: `git repo clone cleankicks11/CyberSecurityProjects`
+Run commands to download playbook: `git clone cleankicks11/CyberSecurityProjects`
