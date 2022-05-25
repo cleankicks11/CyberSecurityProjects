@@ -110,4 +110,4 @@ SSH into the control node and follow the steps below:
 - To make Ansible run the playbook on a specific machine edit /etc/Ansible/hosts edit [webservers] lines to include IP address and ansible_python_interpreter=/usr/bin/python3
 - Navigate to  http://[your.ELK-VM.External.IP]:5601/app/kibana in order to check that the ELK server is running.
 
-Run commands to download playbook: `git clone cleankicks11/CyberSecurityProjects`
+Run commands to download playbook: `git clone https://github.com/cleankicks11/CyberSecurityProjects.git`
